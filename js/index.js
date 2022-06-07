@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 function computerPlay(){
     let arr = ['Rock', 'Paper', 'Scissors'];
     let res = arr[Math.floor(Math.random() * 3)]; 
