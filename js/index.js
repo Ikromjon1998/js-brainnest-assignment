@@ -57,11 +57,11 @@ function game(){
         console.log(`${i+1} round result: ${resultOfRound}`);
     }
 
-    if(p > c){
-        // document.getElementById('container').innerHTML = '<h1>Player wone!</h1>';
+    if(p > c) {
+        document.getElementById('container').innerHTML = '<h1>Player wone!</h1>';
         console.log('Player Won!');
-    }else{
-        // document.getElementById('container').innerHTML = '<h1>Player lose!</h1>';
+    }else {
+        document.getElementById('container').innerHTML = '<h1>Player lose!</h1>';
         console.log('Player Lose!');
     }
 
