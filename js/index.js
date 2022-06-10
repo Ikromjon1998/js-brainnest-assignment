@@ -10,7 +10,7 @@ function roundWinLose(playerSelection1, computerSelection1){
     let playerSelection = playerSelection1.toLowerCase();
     let computerSelection = computerSelection1.toLowerCase();
     if(playerSelection == 'rock' && computerSelection == 'rock' || playerSelection == 'paper' && computerSelection == 'paper' || playerSelection == 'scissors' && computerSelection == 'scissors'){
-        return 'Play again! You are even.'
+        return 'Play again! You are tie.'
     }else if(playerSelection =='rock' && computerSelection == 'scissors' || playerSelection =='scissors' && computerSelection == 'paper' || playerSelection =='paper' && computerSelection == 'rock'){
         return `You Won! ${playerSelection[0].toUpperCase() + playerSelection.slice(1, computerSelection.length)} beats ${computerSelection[0].toUpperCase() + computerSelection.slice(1, computerSelection.length)}.`
     }
